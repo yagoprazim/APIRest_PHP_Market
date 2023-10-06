@@ -5,9 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class marketStock extends Model
 {
     use HasFactory;
-
-    protected $fillable = ['product_name', 'category_id'];
+    protected $fillable = ['marketplace_id','product_id', 'unit_price', 'stock'];
 }
